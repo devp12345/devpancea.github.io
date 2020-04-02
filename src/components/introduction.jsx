@@ -31,7 +31,7 @@ export default class Introduction extends Component {
                             <b>student @ uwaterloo</b>
                             <br />
                             <br />
-                            <button
+                            {/*<button
                               style={{
                                 color: "white",
                                 border: "1px solid white",
@@ -40,7 +40,7 @@ export default class Introduction extends Component {
                               className='btn btn-primary btn-learn'
                             >
                               Resume
-                            </button>
+                            </button>*/}
                           </h2>
                         </div>
                       </div>
