@@ -77,7 +77,7 @@ export default class About extends Component {
                   <div className='desc'>
                     <h3>Data Science</h3>
                     <p>
-                      I have worked with <b>Python</b> and <b>Java</b> for data
+                      I have worked with <b>Java</b> and <b>Python</b> for data
                       science/analysis. Worked with tools such as Pandas, Numpy,
                       and other libraries
                     </p>
