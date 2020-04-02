@@ -72,8 +72,7 @@ export default class Projects extends Component {
           "mortgage affordability",
           "monthly payments",
           "max house price affordability"
-        ],
-        link: "https://github.com/devp12345/ShopSafety"
+        ]
       }
     ];
 
@@ -134,13 +133,15 @@ export default class Projects extends Component {
                             </span>
                           ))}
                         </ul>
-                        <p className='icon'>
-                          <span>
-                            <a href={project.link} target='blank'>
-                              <i className='icon-share3' />
-                            </a>
-                          </span>
-                        </p>
+                        {project.link && (
+                          <p className='icon'>
+                            <span>
+                              <a href={project.link} target='blank'>
+                                <i className='icon-share3' />
+                              </a>
+                            </span>
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>

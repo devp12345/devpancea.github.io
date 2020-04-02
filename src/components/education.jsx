@@ -29,7 +29,9 @@ export default class Education extends Component {
                         <h2>
                           University of Waterloo <span>SEP 2019-APR 2024</span>
                         </h2>
-                        <p>Honours Mathematics</p>
+                        <p>
+                          <b>BMath</b>: Honours Mathematics
+                        </p>
                         <span style={{ fontStyle: "italic" }}>
                           Relevant courses:
                         </span>

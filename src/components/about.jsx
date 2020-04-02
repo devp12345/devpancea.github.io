@@ -22,15 +22,15 @@ export default class About extends Component {
                         <b>University of Waterloo</b>, expected to graduate in
                         2024. I recently graduated from Chinguacousy Secondary
                         School, receiving a specialization in Science and
-                        Technology Distinction. I am a tech enthusiast, with
-                        experiences in fullstack development and product
-                        management, alongside an interest in machine learning.
+                        Technology. I am a tech enthusiast, with experiences in
+                        fullstack development and product management, alongside
+                        an interest in machine learning.
                       </p>
                       <p>
-                        I am an enthusiastic worker, with a vision to better
-                        myself in the field of computing and mathematics. I am
-                        focused on harnessing machine learning and applied math
-                        to better understand the world we live in.
+                        I am a creative thinker, with a vision to better myself
+                        in the field of computing and mathematics. I am focused
+                        on harnessing machine learning and applied math to
+                        better understand the world we live in.
                       </p>
                     </div>
                   </div>
@@ -48,7 +48,7 @@ export default class About extends Component {
               >
                 <span className='heading-meta'>What I do?</span>
                 <h2 className='colorlib-heading'>
-                  Here's somes stuff im good at
+                  Here's some stuff im good at
                 </h2>
               </div>
             </div>
@@ -61,10 +61,10 @@ export default class About extends Component {
                   <div className='desc'>
                     <h3>Full Stack Development </h3>
                     <p>
-                      I have experience building web applications using and{" "}
-                      <b>Angular</b> on the front end, as well as <b>Express</b>
-                      , <b>Python(Flask)</b>,<b>NodeJS</b> and <b>MongoDB</b>{" "}
-                      for the backend
+                      I have experience building web applications using{" "}
+                      <b>React</b> and <b>Angular</b> on the front end, as well
+                      as <b>Express</b>, <b>Python(Flask)</b>,<b>NodeJS</b> and{" "}
+                      <b>MongoDB</b> for the backend
                     </p>
                   </div>
                 </div>
@@ -78,8 +78,8 @@ export default class About extends Component {
                     <h3>Data Science</h3>
                     <p>
                       I have worked with <b>Python</b> and <b>Java</b> for data
-                      science/analysis. Worked with Pandas, Numpy, and other
-                      libraries
+                      science/analysis. Worked with tools such as Pandas, Numpy,
+                      and other libraries
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export default class About extends Component {
                     <h3>Data Structures and Algorithms </h3>
                     <p>
                       I have taken a variety of computer science courses, giving
-                      me a grasp over fundamental concepts of DSA, such as{" "}
+                      me a grasp over fundamental concepts, such as{" "}
                       <b>Searching & Sorting</b>, <b>Linked Lists</b>,{" "}
                       <b>Trees & Hashmaps</b>, etc
                     </p>
