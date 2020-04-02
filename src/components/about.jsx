@@ -63,7 +63,7 @@ export default class About extends Component {
                     <p>
                       I have experience building web applications using and{" "}
                       <b>Angular</b> on the front end, as well as <b>Express</b>
-                      Express, <b>Python(Flask)</b>,<b>NodeJS</b> and{" "}
+                      , <b>Python(Flask)</b>,<b>NodeJS</b> and{" "}
                       <b>MongoDB</b> for the backend
                     </p>
                   </div>
