@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FaMedium, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+var bg = require("../assets/uwhoodie.jpeg");
 
 export default class Sidebar extends Component {
   render() {
@@ -21,7 +22,7 @@ export default class Sidebar extends Component {
               <div
                 className='author-img'
                 style={{
-                  backgroundImage: "url(https://www.devpancea.com/IMG_0570.jpg)"
+                  backgroundImage: "url(" + bg + ")"
                 }}
               />
               <h1 id='colorlib-logo'>
