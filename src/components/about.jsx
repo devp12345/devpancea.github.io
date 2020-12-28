@@ -17,20 +17,20 @@ export default class About extends Component {
                       <span className='heading-meta'>About</span>
                       <h2 className='colorlib-heading'>Who Am I?</h2>
                       <p>
-                        Hey, Im <b>Dev Pancea</b>! Im a first year student
+                        Hey, Im <b>Dev Pancea</b>! Im a second year student
                         studying mathematics at the{" "}
                         <b>University of Waterloo</b>, expected to graduate in
-                        2024. I recently graduated from Chinguacousy Secondary
-                        School, receiving a specialization in Science and
-                        Technology. I am a tech enthusiast, with experiences in
-                        fullstack development and product management, alongside
-                        an interest in machine learning.
+                        2024. I am a tech enthusiast, with experiences in
+                        Full Stack Development, Machine Learning and Product Management.
                       </p>
                       <p>
-                        I am a creative thinker, with a vision to better myself
-                        in the field of computing and mathematics. I am focused
-                        on harnessing machine learning and applied math to
-                        better understand the world we live in.
+                        Im a <a href="https://studentambassadors.microsoft.com/" target="blank">Microsoft Student Ambassador</a>, representing the University of Waterloo, and
+                        I was a Full Stack Developer intern at <a href="https://www.wsib-lab.ca/" target="blank">WSIB Innovation Labs</a> this past Fall.
+                        Im always on the lookout for internships & oppertunities, so please dont hesitate to connect with me via email or Linkedin.
+ </p>
+                      <p>
+                        Looking to talk about technology, software development, machine learning, sports, or mental health? Feel free to connect with me on{" "}
+                        <a href="https://www.linkedin.com/in/dev-pancea-018b7116a/" target="blank">Linkedin</a> to chat!
                       </p>
                     </div>
                   </div>
@@ -39,7 +39,7 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className='colorlib-about'>
+        {/* <section className='colorlib-about'>
           <div className='colorlib-narrow-content'>
             <div className='row'>
               <div
@@ -100,7 +100,7 @@ export default class About extends Component {
                   </div>
                 </div>
               </div>
-              {/*
+              
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
                 <span className="icon">
@@ -134,10 +134,10 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            */}
+            
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     );
   }

@@ -64,12 +64,6 @@ export default class Sidebar extends Component {
                       Blog
                     </a>
                   </li>*/}
-
-                  <li>
-                    <a href='#timeline' data-nav-section='timeline'>
-                      Experience
-                    </a>
-                  </li>
                 </ul>
               </div>
             </nav>

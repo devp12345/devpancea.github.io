@@ -2,13 +2,16 @@ import React, { Component } from "react";
 
 export default class Projects extends Component {
   render() {
-    const projects = [
+    const activities = [
+
       {
-        name: "DevConnector",
-        type: "Full Stack web app",
-        description: "Fully functioning social media platform built using:",
-        url: "https://cdnw.phpfox.com/uploads/2017/04/Social-network-1.png",
-        skills: ["React", "ExpressJS", "NodeJS", "MongoDB"]
+        name: "Microsoft Sudent learn Ambassador",
+        type: "University of Waterloo represntative",
+        description:
+          "Im a Microsoft ambassador, helping incubate the tech culture at UWaterloo. Im also a part of the AI & ML league for ambassador",
+        link: "https://studentambassadors.microsoft.com/",
+        url: "https://thedesignlove.com/wp-content/uploads/2018/02/Case-Study-The-Microsoft-Logo-Evolution-5.jpg",
+        skills: []
       },
 
       {
@@ -39,17 +42,26 @@ export default class Projects extends Component {
           "2017 FIRST robotics world divisional finalists"
         ],
         link: "https://www.bramptonrobotics.org/"
+      }
+    ];
+
+    const projects = [
+      {
+        name: "Hindi classifier",
+        type: "Deep Learning project",
+        description:
+          "Deep Learning Neural Ntework in Python to classify hand written Hindi",
+        link: "https://github.com/devp12345/Hindi-Deep-Neural-Network",
+        url: "https://confusedcoders.com/wp-content/uploads/2017/12/TensorFlowLogo.png",
+        skills: ["Utilized Keras and Tensorflow to reach 96% test set accuracy"]
       },
       {
-        name: "Data Analysis bundle",
-        type: "Data science project",
-        description:
-          "Java based implementation and visualization of statistical methods including:",
-        url:
-          "https://backlog.com/wp-blog-app/uploads/2019/12/Nulab-Gradient-descent-for-linear-regression-using-Golang-Blog.png",
-
-        skills: ["Linear Regressions", "Correlation coefficients"],
-        link: "https://github.com/devp12345/Data-analysis-algorithms"
+        name: "DevConnector",
+        type: "Full Stack web app",
+        description: "Fully functioning social media platform built using:",
+        link: "https://github.com/devp12345/DevConnector",
+        url: "https://cdnw.phpfox.com/uploads/2017/04/Social-network-1.png",
+        skills: ["React", "ExpressJS", "NodeJS", "MongoDB"]
       },
       {
         name: "ShopSafety",
@@ -61,34 +73,22 @@ export default class Projects extends Component {
 
         skills: ["Angular", "Firebase"],
         link: "https://github.com/devp12345/ShopSafety"
-      },
-      {
-        name: "Mortgage Calculator",
-        type: "Java application and GUI",
-        description:
-          "GUI takes in various user inputs (income, expenses, debt, etc) and breaks down the users:",
-        url: "https://miro.medium.com/max/700/1*A5o_QRnIk9HDhGZdNO2cpA.jpeg",
-        skills: [
-          "mortgage affordability",
-          "monthly payments",
-          "max house price affordability"
-        ]
       }
     ];
 
     /*<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">{project.name}</a></h3>
-											<span>Website</span>
-											<p className="icon">
-												<span><a href={project.url} target="blank"><i className="icon-share3" /></a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>*/
+                <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+                  <div className="desc">
+                    <div className="con">
+                      <h3><a href="work.html">{project.name}</a></h3>
+                      <span>Website</span>
+                      <p className="icon">
+                        <span><a href={project.url} target="blank"><i className="icon-share3" /></a></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>*/
 
     return (
       <div>
@@ -99,14 +99,70 @@ export default class Projects extends Component {
                 className='col-md-6 col-md-offset-3 col-md-pull-3 animate-box'
                 data-animate-effect='fadeInLeft'
               >
-                <span className='heading-meta'>Projects and Clubs</span>
+                <span className='heading-meta'>Projects</span>
                 <h2 className='colorlib-heading animate-box'>
-                  here are some recent projects and clubs I have been a part of
+                  Here are some of my recent projects
                 </h2>
               </div>
             </div>
             <div className='row'>
               {projects.map(project => (
+                <div
+                  className='col-md-4 animate-box'
+                  data-animate-effect='fadeInTop'
+                >
+                  <div
+                    className='project'
+                    style={{
+                      backgroundImage: `url(${project.url})`
+                    }}
+                  >
+                    <div className='desc'>
+                      <div className='con'>
+                        <h3>
+                          <a href='work.html'>{project.name}</a>
+                        </h3>
+                        <p>{project.type}</p>
+                        <span style={{ color: "#F5F5F5" }}>
+                          {project.description}
+                        </span>
+                        <ul>
+                          {project.skills.map(skill => (
+                            <span>
+                              <li style={{ color: "#F5F5F5" }}>{skill}</li>
+                            </span>
+                          ))}
+                        </ul>
+                        {project.link && (
+                          <p className='icon'>
+                            <span>
+                              <a href={project.link} target='blank'>
+                                <i className='icon-share3' />
+                              </a>
+                            </span>
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className='colorlib-narrow-content'>
+            <div className='row'>
+              <div
+                className='col-md-6 col-md-offset-3 col-md-pull-3 animate-box'
+                data-animate-effect='fadeInLeft'
+              >
+                <span className='heading-meta'>Extracurriclars and Teams</span>
+                <h2 className='colorlib-heading animate-box'>
+                  Here are some teams/activities that have been keeeping me busy
+                </h2>
+              </div>
+            </div>
+            <div className='row'>
+              {activities.map(project => (
                 <div
                   className='col-md-4 animate-box'
                   data-animate-effect='fadeInTop'

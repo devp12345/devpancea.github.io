@@ -36,9 +36,10 @@ export default class Education extends Component {
                           Relevant courses:
                         </span>
                         <ul>
-                          <li>CS135- Designing functional programs</li>
-                          <li>MATH136- Linear Algebra</li>
-                          <li>AFM101- Introduction to financial accounting</li>
+                          <li>CS136 - Data Structures and Algorithms</li>
+                          <li>CS246 - Object Oriented Software Development</li>
+                          <li>STAT230 - Introduction to Probability</li>
+                          <li>CO250 - Introduction to Optimization</li>
                         </ul>
                       </div>
                     </div>
